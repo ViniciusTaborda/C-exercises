@@ -1,10 +1,6 @@
 #include <iostream>
 
 int main() {
-    int x;
-    std::cin >> x;
-    std::cout << "Hello world";
-    std::cout << x;
-
+    std::cout << "Hello World!";
     return 0;
 }
