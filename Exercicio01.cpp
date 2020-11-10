@@ -3,12 +3,22 @@ using namespace std;
 
 int main() {
 
+    float radius;
+
     //extraction operator
-    int radius;
+    cout << "Digite o Raio da circuferencia:";
     cin >> radius;
 
+    //calc
+    float resultArea = (radius * radius) * 3.1415;
+    float resultPer = radius * ( 3.1415 * 3.1415 );
+
     //insertion operator
-    cout << radius << endl ;
+    cout << "A valor da area do circulo é:";
+    cout << resultArea << endl;
+
+    cout << "A valor do perimetro do circulo é:";
+    cout << resultPer << endl;
 
     return 0;
     
