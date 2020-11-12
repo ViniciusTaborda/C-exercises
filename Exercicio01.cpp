@@ -4,14 +4,15 @@ using namespace std;
 int main() {
 
     float radius;
+    const float PI = 3.1415;
 
     //extraction operator
     cout << "Digite o Raio da circuferencia:";
     cin >> radius;
 
     //calc
-    float resultArea = (radius * radius) * 3.1415;
-    float resultPer = radius * ( 3.1415 * 3.1415 );
+    float resultArea = (radius * radius) * PI;
+    float resultPer = radius * ( PI * PI );
 
     //insertion operator
     cout << "A valor da area do circulo é:";
