@@ -11,7 +11,7 @@ int main() {
 
      if ((finalGrade >= 7) && (finalGrade <= 10)){
           cout << "Excellent grade!" << endl;
-          cout << "Congratulations my friend!" << endl;
+          cout << "Congratulations my friend!!!" << endl;
 
      }else if ((finalGrade >= 0) && (finalGrade < 7)){
           cout << "You need to study more..." << endl;
